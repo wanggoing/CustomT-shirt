@@ -120,6 +120,7 @@ return retImage;
 - 将```背景图像(T-shirt)```与上步中产出的```新图像```取交集，生成最终使用的```蒙层图像```
 - 将```蒙层图像```加载在```背景图像(T-shirt)```之上，因为```蒙层图像```边缘透明指定定区域透明，所以在视觉显示效果上，T-shirt还是以完整状态显示，在```蒙层图像```与```背景图像(T-shirt)```之间添加贴纸对象与文字对象时，就可以实现不规则蒙层遮挡。达到在指定区域绘制T-shirt的目的。
 通过截面GIF看一下
+
 ![section.gif](https://upload-images.jianshu.io/upload_images/2105719-5829fd77d4d2ac4f.gif?imageMogr2/auto-orient/strip)
 
 ###### ~~通过PS制作一张中间透明的T-shirt的图片放在背景T-shirt之上也能达到相同的效果，至于我为什么这么做，额...~~
